@@ -1,0 +1,21 @@
+{
+  "name": "@yz-ui/docs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vitepress dev .",
+    "build": "vitepress build .",
+    "serve": "vitepress serve ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@yz-ui/components": "workspace:^1.0.0",
+    "vitepress": "^0.21.6"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.9.1"
+  }
+}

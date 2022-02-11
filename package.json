@@ -1,0 +1,33 @@
+{
+  "name": "yz-ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "pnpm run -C docs dev",
+    "build:demovue": "pnpm run -C packages/demovue build",
+    "build:demovuets": "pnpm run -C packages/demovuets build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@yz-ui/utils": "workspace:^1.0.0",
+    "vue": "^3.2.27"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.12",
+    "@babel/preset-env": "^7.16.11",
+    "@vue/compiler-sfc": "^3.2.29",
+    "babel-loader": "^8.2.3",
+    "fork-ts-checker-webpack-plugin": "^6.5.0",
+    "html-webpack-plugin": "^5.5.0",
+    "rollup": "^2.67.2",
+    "jiti": "^1.12.9",
+    "ts-loader": "^9.2.6",
+    "typescript": "^4.5.5",
+    "vue-loader": "^17.0.0",
+    "webpack": "^5.67.0",
+    "webpack-cli": "^4.9.1"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "@yz-ui/democomp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/comps.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config  webpack.component.js & webpack --config  webpack.config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "html-webpack-plugin": "^5.5.0",
+    "webpack-cli": "^4.9.1"
+  }
+}

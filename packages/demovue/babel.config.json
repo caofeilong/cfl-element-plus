@@ -1,0 +1,12 @@
+{
+    "presets":[
+        // ["es2015", { "modules": false }]
+        [ "@babel/preset-env",{"modules":false}]
+    ]
+    // ,
+    // "plugins": [["component",{
+    //     "style":false,
+    //      "libraryName": "@cfl-element-plus/demovuets"
+         
+    //      }]]
+}
